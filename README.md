@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed:
     ```bash
     pip install -r requirements.txt
     ```
-4. Create .env file with below code:
+4. Create .env file with your values:
     ```bash
     TARGET_COLUMN="mpg"
     FILEPATH="mtcars.csv"
