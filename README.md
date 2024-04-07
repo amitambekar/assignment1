@@ -25,13 +25,14 @@ Before you begin, ensure you have the following installed:
     ```bash
     pip install -r requirements.txt
     ```
-4. Setup Environment Variables:
+4. Create .env file with below code:
+    ```bash
     TARGET_COLUMN="mpg"
     FILEPATH="mtcars.csv"
     BUCKET="model-data"
     aws_access_key_id="XXXXX"
     aws_secret_access_key="XXXX"
-   
+    ```
 ## Running the Application
 1. Ensure you are in the project directory and your virtual environment is activated.
 2. Run the Flask application:
